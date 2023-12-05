@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class PartOne {
 
-    public int getCalibrationValues () throws FileNotFoundException, IOException {
+    public int getCalibrationValues () throws IOException {
         int result = 0;
         try (BufferedReader br = new BufferedReader(new FileReader("./Day_One/words.csv"))) {
             String line;
